@@ -16,3 +16,8 @@ func CreateULID(t time.Time) ulid.ULID {
 	i := ulid.MustNew(ulid.Timestamp(t), entropy)
 	return i
 }
+
+// ParseULID は文字列からULIDを解析し、ULID型とエラーメッセージを返します。
+func ParseULID(s string) (ulid.ULID, error) {
+	return ulid.Parse(s)
+}
