@@ -19,10 +19,11 @@ func GenerateBatch(count int) []ulid.ULID {
 		return make([]ulid.ULID, 0)
 	}
 	result := make([]ulid.ULID, count)
-	now := time.Now()
-	// 乱数作成はもっと厳密にするべき
-	e := ulid.Monotonic(rand.New(rand.NewSource(now.UnixNano())), 0)
+
 	for i := range count {
+		now := time.Now()
+		// 乱数作成はもっと厳密にするべき
+		e := ulid.Monotonic(rand.New(rand.NewSource(now.UnixNano())), 0)
 		result[i] = ulid.MustNew(ulid.Timestamp(now), e)
 	}
 
