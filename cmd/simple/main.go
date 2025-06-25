@@ -1,13 +1,17 @@
-// (c) 2025 Tadahiro Ishisaka All rights reserved.
+/*
+ * Copyright (c) 2025. Tadahiro Ishisaka All rights reserved.
+ */
+
 // ULID作成のためのシンプルなサンプル
 
 package main
 
 import (
 	"fmt"
-	"github.com/oklog/ulid"
 	"math/rand"
 	"time"
+
+	"github.com/oklog/ulid"
 )
 
 // ExampleULID は、新しいULIDを生成して返します。

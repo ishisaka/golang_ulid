@@ -1,11 +1,16 @@
+/*
+ * Copyright (c) 2025. Tadahiro Ishisaka All rights reserved.
+ */
+
 package func_sample
 
 import (
 	"fmt"
-	"github.com/oklog/ulid"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/oklog/ulid"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCreateULID(t *testing.T) {

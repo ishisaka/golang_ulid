@@ -1,11 +1,15 @@
-// (c) 2025 Tadahiro Ishisaka All rights reserved.
+/*
+ * Copyright (c) 2025. Tadahiro Ishisaka All rights reserved.
+ */
+
 // ULID作成のためのシンプルなサンプル
 
 package main
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestExampleULID(t *testing.T) {

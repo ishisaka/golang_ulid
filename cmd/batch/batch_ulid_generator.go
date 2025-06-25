@@ -1,12 +1,16 @@
-// (c) 2025 Tadahiro Ishisaka all rights reserved.
+/*
+ * Copyright (c) 2025. Tadahiro Ishisaka All rights reserved.
+ */
+
 // バッチ生成の例
 
 package batch
 
 import (
-	"github.com/oklog/ulid"
 	"math/rand"
 	"time"
+
+	"github.com/oklog/ulid"
 )
 
 // GenerateBatch は指定された数のULIDを生成します

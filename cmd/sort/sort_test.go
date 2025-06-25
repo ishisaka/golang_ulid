@@ -1,5 +1,8 @@
-// (c) 2025 Tadahiro Ishisaka all rights reserved
-// ULIDのソートサンプル
+/*
+ * Copyright (c) 2025. Tadahiro Ishisaka All rights reserved.
+ *
+ * ULIDのソートサンプル
+ */
 
 package sort
 

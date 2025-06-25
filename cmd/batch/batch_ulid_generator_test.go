@@ -1,13 +1,17 @@
-// (c) 2025 Tadahiro Ishisaka all rights reserved.
+/*
+ * Copyright (c) 2025. Tadahiro Ishisaka All rights reserved.
+ */
+
 // バッチ生成の例
 
 package batch
 
 import (
 	"fmt"
+	"testing"
+
 	"github.com/oklog/ulid"
 	"github.com/stretchr/testify/assert"
-	"testing"
 )
 
 func TestGenerateBatch(t *testing.T) {

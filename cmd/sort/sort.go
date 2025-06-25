@@ -1,11 +1,15 @@
-// (c) 2025 Tadahiro Ishisaka all rights reserved
-// ULIDのソートサンプル
+/*
+ * Copyright (c) 2025. Tadahiro Ishisaka All rights reserved.
+ *
+ * ULIDのソートサンプル
+ */
 
 package sort
 
 import (
-	"github.com/oklog/ulid"
 	"sort"
+
+	"github.com/oklog/ulid"
 )
 
 // SortULIDs はULIDのスライスを時系列順に並び替えます

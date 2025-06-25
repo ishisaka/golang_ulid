@@ -1,9 +1,14 @@
+/*
+ * Copyright (c) 2025. Tadahiro Ishisaka All rights reserved.
+ */
+
 package func_sample
 
 import (
-	"github.com/oklog/ulid"
 	"math/rand"
 	"time"
+
+	"github.com/oklog/ulid"
 )
 
 // CreateULID は指定された時刻に基づいて新しいULIDを生成する関数です。
